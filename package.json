@@ -1,0 +1,17 @@
+{
+  "name": "blockchain-music-copyright-project",
+  "version": "1.0.0",
+  "description": "End-to-end Blockchain-Based Music Copyright and Royalty Management System",
+  "scripts": {
+    "contracts:test": "cd contracts && npx hardhat test",
+    "contracts:compile": "cd contracts && npx hardhat compile",
+    "contracts:deploy": "cd contracts && npx hardhat run scripts/deploy.js --network localhost",
+    "contracts:node": "cd contracts && npx hardhat node",
+    "backend:start": "cd backend && node server.js",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

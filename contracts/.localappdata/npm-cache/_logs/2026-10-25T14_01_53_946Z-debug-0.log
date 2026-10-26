@@ -1,0 +1,31 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\my_things\blockchain_project\contracts\.npmrc
+5 silly config load:file:C:\Users\Bhavya\.npmrc
+6 verbose config error loading user config Error: EPERM: operation not permitted, open 'C:\Users\Bhavya\.npmrc'
+6 verbose config     at async open (node:internal/fs/promises:633:25)
+6 verbose config     at async readFile (node:internal/fs/promises:1237:14)
+6 verbose config     at async #loadFile (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\config\lib\index.js:589:5)
+6 verbose config     at async Config.load (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\config\lib\index.js:250:5)
+6 verbose config     at async #load (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:98:5)
+6 verbose config     at async Npm.load (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:80:14)
+6 verbose config     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:42:37) {
+6 verbose config   errno: -4048,
+6 verbose config   code: 'EPERM',
+6 verbose config   syscall: 'open',
+6 verbose config   path: 'C:\\Users\\Bhavya\\.npmrc'
+6 verbose config }
+7 silly config load:file:C:\Users\Bhavya\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm exec hardhat test
+9 verbose argv "exec" "--" "hardhat" "test"
+10 verbose logfile logs-max:10 dir:c:\my_things\blockchain_project\contracts\.localappdata\npm-cache\_logs\2026-10-25T14_01_53_946Z-
+11 verbose logfile c:\my_things\blockchain_project\contracts\.localappdata\npm-cache\_logs\2026-10-25T14_01_53_946Z-debug-0.log
+12 silly logfile done cleaning log files
+13 verbose cwd C:\my_things\blockchain_project\contracts
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v22.16.0
+16 verbose npm  v10.9.2
+17 verbose exit 0
+18 info ok

@@ -1,0 +1,824 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "username": "admin",
+      "name": "Admin / Validator",
+      "role": "Admin",
+      "walletAddress": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "email": "admin@musicchain.org"
+    },
+    {
+      "id": "usr_artist",
+      "username": "artist_elena",
+      "name": "Elena Vance (Artist)",
+      "role": "Artist",
+      "walletAddress": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "email": "elena@vancemusic.com"
+    },
+    {
+      "id": "usr_composer",
+      "username": "composer_marcus",
+      "name": "Marcus Cole (Composer)",
+      "role": "Composer",
+      "walletAddress": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "email": "marcus@soundworks.io"
+    },
+    {
+      "id": "usr_lyricist",
+      "username": "lyricist_sarah",
+      "name": "Sarah Jenkins (Lyricist)",
+      "role": "Lyricist",
+      "walletAddress": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "email": "sarah@lyriclab.com"
+    },
+    {
+      "id": "usr_platform",
+      "username": "spotify_node",
+      "name": "SoundStream Global (Licensee / Platform)",
+      "role": "Licensee",
+      "walletAddress": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "email": "licensing@soundstream.com"
+    },
+    {
+      "id": "usr_authority",
+      "username": "global_rights_office",
+      "name": "Global Copyright Authority",
+      "role": "Copyright Authority",
+      "walletAddress": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4df",
+      "email": "certify@copyrightauthority.gov"
+    }
+  ],
+  "songs": [
+    {
+      "songId": "SONG001",
+      "title": "Midnight Melody",
+      "genre": "Synthwave / Lo-Fi",
+      "description": "Genesis demonstration work illustrating multi-party contributor splits (50% Artist, 30% Composer, 20% Lyricist) with authority certification.",
+      "duration": "3:42",
+      "audioFileName": null,
+      "ipfsAudioCid": "QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco",
+      "ipfsMetadataCid": "QmZtmD2qt8fJpq3CLDHytjwjphopW1R75geu3MtqCfbrhr",
+      "sha256Hash": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+      "creator": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "rightsHolders": [
+        {
+          "name": "Elena Vance",
+          "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+          "sharePercentage": 50,
+          "role": "Artist"
+        },
+        {
+          "name": "Marcus Cole",
+          "wallet": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+          "sharePercentage": 30,
+          "role": "Composer"
+        },
+        {
+          "name": "Sarah Jenkins",
+          "wallet": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+          "sharePercentage": 20,
+          "role": "Lyricist"
+        }
+      ],
+      "status": "Verified",
+      "totalStreams": 125000,
+      "totalRoyaltyPaidEth": "4.6650",
+      "txHash": "0x7a3f89b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9",
+      "blockNumber": 1,
+      "createdAt": "2026-10-25T18:00:00.000Z",
+      "updatedAt": "2026-10-25T17:06:44.339Z"
+    },
+    {
+      "songId": "SONG_OIUNIH",
+      "title": "Neon Horizons",
+      "genre": "Synthwave",
+      "description": "Tested via automated test harness",
+      "duration": "3:30",
+      "audioFileName": null,
+      "ipfsAudioCid": "Qme69a918d62c52bd59a34acbd2a0c346489db4c3e9c84",
+      "ipfsMetadataCid": "Qmbb0e0192aa4ff379df8a34d1ad900fcd4e2d06000df0",
+      "sha256Hash": "e69a918d62c52bd59a34acbd2a0c346489db4c3e9c841c135033366137002332",
+      "creator": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "rightsHolders": [
+        {
+          "name": "Elena Vance",
+          "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+          "sharePercentage": 50,
+          "role": "Artist"
+        },
+        {
+          "name": "Marcus Cole",
+          "wallet": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+          "sharePercentage": 30,
+          "role": "Composer"
+        },
+        {
+          "name": "Sarah Jenkins",
+          "wallet": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+          "sharePercentage": 20,
+          "role": "Lyricist"
+        }
+      ],
+      "status": "Verified",
+      "totalStreams": 0,
+      "totalRoyaltyPaidEth": "1.0100",
+      "txHash": "0xe535ff4134bbc5517fe6c02200094dd33c96aefea07c4378302f857147e8d5e2",
+      "blockNumber": 4,
+      "gasUsed": "148200",
+      "executionMode": "simulated",
+      "createdAt": "2026-10-25T13:56:20.064Z",
+      "updatedAt": "2026-10-25T17:05:40.467Z",
+      "verifiedAt": "2026-10-25T14:58:21.334Z",
+      "verifiedBy": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4df",
+      "verifyTxHash": "0x02b9cafa602ab30cf73efbe185c9d1c5e0d64db43fb39676b88a850639c96fa7"
+    },
+    {
+      "songId": "SONG_M413X1",
+      "title": "hello",
+      "genre": "Pop / Electronic",
+      "description": "",
+      "duration": "3:30",
+      "audioFileName": "track_1792946405266_8506.mp3",
+      "ipfsAudioCid": "Qma236b91a515551bee0c18979bb1f2a85899c4def1039",
+      "ipfsMetadataCid": "Qm2bf18c8cefce0a885b61aa356f661cc6a823a58c5a3b",
+      "sha256Hash": "a236b91a515551bee0c18979bb1f2a85899c4def1039287ae966a03af0636d16",
+      "creator": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "rightsHolders": [
+        {
+          "name": "Elena Vance",
+          "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+          "sharePercentage": 50,
+          "role": "Artist"
+        },
+        {
+          "name": "Marcus Cole",
+          "wallet": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+          "sharePercentage": 30,
+          "role": "Composer"
+        },
+        {
+          "name": "Sarah Jenkins",
+          "wallet": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+          "sharePercentage": 20,
+          "role": "Lyricist"
+        }
+      ],
+      "status": "Verified",
+      "totalStreams": 0,
+      "totalRoyaltyPaidEth": "1.0100",
+      "txHash": "0x313679bea3ad07207c9d5e10b5dd0f290c58862d8c4aebff6793d937b48d5b7c",
+      "blockNumber": 36,
+      "gasUsed": "148200",
+      "executionMode": "simulated",
+      "createdAt": "2026-10-25T16:40:05.317Z",
+      "updatedAt": "2026-10-25T17:19:39.891Z",
+      "verifiedAt": "2026-10-25T16:52:23.301Z",
+      "verifiedBy": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "verifyTxHash": "0x70d27e71dac9bf23bdb7b4399f9c50507637bf05ccca04af0e64d3a95a94e1d1"
+    },
+    {
+      "songId": "SONG_Y15JSM",
+      "title": "hello",
+      "genre": "Pop / Electronic",
+      "description": "",
+      "duration": "3:30",
+      "audioFileName": "track_1792947077517_3323.mp3",
+      "ipfsAudioCid": "Qma236b91a515551bee0c18979bb1f2a85899c4def1039",
+      "ipfsMetadataCid": "Qmac097bb9cb84faf4af36777f5a1d4fe54e7b747d2ec1",
+      "sha256Hash": "a236b91a515551bee0c18979bb1f2a85899c4def1039287ae966a03af0636d16",
+      "creator": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "rightsHolders": [
+        {
+          "name": "Elena Vance",
+          "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+          "sharePercentage": 50,
+          "role": "Artist"
+        },
+        {
+          "name": "Marcus Cole",
+          "wallet": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+          "sharePercentage": 30,
+          "role": "Composer"
+        },
+        {
+          "name": "Sarah Jenkins",
+          "wallet": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+          "sharePercentage": 20,
+          "role": "Lyricist"
+        }
+      ],
+      "status": "Registered",
+      "totalStreams": 0,
+      "totalRoyaltyPaidEth": "0.0",
+      "txHash": "0x7f4cee1efe3246e12886ec2b16d76d909b3511aa3f98d50e88bce4839fed7bd9",
+      "blockNumber": 30,
+      "gasUsed": "148200",
+      "executionMode": "simulated",
+      "createdAt": "2026-10-25T16:51:17.546Z",
+      "updatedAt": "2026-10-25T16:51:17.546Z"
+    },
+    {
+      "songId": "SONG_EA0HX2",
+      "title": "hi",
+      "genre": "Pop ",
+      "description": "",
+      "duration": "3:30",
+      "audioFileName": "track_1792952331985_6300.mp3",
+      "ipfsAudioCid": "Qma236b91a515551bee0c18979bb1f2a85899c4def1039",
+      "ipfsMetadataCid": "Qm07fbe8105f323f48c0e39a25a64ba81f507ff60d31a5",
+      "sha256Hash": "a236b91a515551bee0c18979bb1f2a85899c4def1039287ae966a03af0636d16",
+      "creator": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "rightsHolders": [
+        {
+          "name": "Elena Vance",
+          "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+          "sharePercentage": 50,
+          "role": "Artist"
+        },
+        {
+          "name": "Marcus Cole",
+          "wallet": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+          "sharePercentage": 30,
+          "role": "Composer"
+        },
+        {
+          "name": "Sarah Jenkins",
+          "wallet": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+          "sharePercentage": 20,
+          "role": "Lyricist"
+        }
+      ],
+      "status": "Verified",
+      "totalStreams": 0,
+      "totalRoyaltyPaidEth": "1.0100",
+      "txHash": "0x691a275aa7d5a3b50127c2e65d60474f09f0bdc53c147cae80c69da9c980d7cb",
+      "blockNumber": 47,
+      "gasUsed": "148200",
+      "executionMode": "simulated",
+      "createdAt": "2026-10-25T18:18:52.016Z",
+      "updatedAt": "2026-10-25T18:23:06.529Z",
+      "verifiedAt": "2026-10-25T18:19:34.341Z",
+      "verifiedBy": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "verifyTxHash": "0xd0ab3e0043534139777262abe8f42c08759f90d0acbb89d4ecafffe89066d5ad"
+    }
+  ],
+  "licenses": [
+    {
+      "licenseId": "LIC_GENESIS_01",
+      "songId": "SONG001",
+      "songTitle": "Midnight Melody",
+      "licensee": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "durationDays": 365,
+      "licenseType": "Commercial Streaming",
+      "feeEth": 0.5,
+      "startDate": "2026-10-25T18:00:00.000Z",
+      "expiresDate": "2027-10-25T18:00:00.000Z",
+      "status": "Active",
+      "txHash": "0x4b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2",
+      "blockNumber": 2,
+      "createdAt": "2026-10-25T18:00:00.000Z",
+      "updatedAt": "2026-10-25T18:00:00.000Z"
+    },
+    {
+      "licenseId": "LIC_UKF12Y",
+      "songId": "SONG_OIUNIH",
+      "songTitle": "Neon Horizons",
+      "licensee": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "durationDays": 365,
+      "licenseType": "Commercial Streaming",
+      "feeEth": 0.5,
+      "startDate": "2026-10-25T14:33:26.138Z",
+      "expiresDate": "2027-10-25T14:33:26.138Z",
+      "status": "Active",
+      "txHash": "0x74674c7ca46db070c2d359867f506ff7b5d088c35e9ecbcaecee4fa90d344478",
+      "blockNumber": 46,
+      "createdAt": "2026-10-25T14:33:26.141Z",
+      "updatedAt": "2026-10-25T14:33:26.141Z"
+    },
+    {
+      "licenseId": "LIC_T2N2FA",
+      "songId": "SONG_M413X1",
+      "songTitle": "hello",
+      "licensee": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "durationDays": 365,
+      "licenseType": "Commercial Streaming",
+      "feeEth": 0.5,
+      "startDate": "2026-10-25T16:53:08.812Z",
+      "expiresDate": "2027-10-25T16:53:08.812Z",
+      "status": "Active",
+      "txHash": "0xed48a2a2dd3d5bb21637c0617e8a00eea8fe05926009f085b533089bef09be09",
+      "blockNumber": 26,
+      "createdAt": "2026-10-25T16:53:08.817Z",
+      "updatedAt": "2026-10-25T16:53:08.817Z"
+    },
+    {
+      "licenseId": "LIC_71UUJN",
+      "songId": "SONG_EA0HX2",
+      "songTitle": "hi",
+      "licensee": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "durationDays": 365,
+      "licenseType": "Commercial Streaming",
+      "feeEth": 0.5,
+      "startDate": "2026-10-25T18:20:22.984Z",
+      "expiresDate": "2027-10-25T18:20:22.984Z",
+      "status": "Active",
+      "txHash": "0xb1b313d73428c9bd84844fda4bdc927866876a3e4a15de0651786d4699f1a535",
+      "blockNumber": 41,
+      "createdAt": "2026-10-25T18:20:22.988Z",
+      "updatedAt": "2026-10-25T18:20:22.988Z"
+    }
+  ],
+  "usageRecords": [
+    {
+      "usageId": "USG_GENESIS_01",
+      "songId": "SONG001",
+      "streamCount": 125000,
+      "platformName": "Spotify",
+      "oracleProof": "0x98f4e2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3",
+      "timestamp": "2026-10-25T18:10:00.000Z",
+      "txHash": "0x2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1",
+      "blockNumber": 3,
+      "createdAt": "2026-10-25T18:10:00.000Z",
+      "updatedAt": "2026-10-25T18:10:00.000Z"
+    },
+    {
+      "usageId": "USG_WY06M6C",
+      "songId": "SONG001",
+      "streamCount": 50100,
+      "platformName": "Spotify",
+      "oracleProof": "0x5c78ff3ce999b87cb6aa4d6975e3aac4ee27d211672c6160ae819bfb078ebe7d",
+      "timestamp": "2026-10-25T14:34:21.547Z",
+      "txHash": "0x0999f65c874d3648c0378e92877eb909efe8d5d851ee8d7d7af7d29825775482",
+      "blockNumber": 35,
+      "createdAt": "2026-10-25T14:34:21.550Z",
+      "updatedAt": "2026-10-25T14:34:21.550Z"
+    },
+    {
+      "usageId": "USG_ABHN9SG",
+      "songId": "SONG001",
+      "streamCount": 51000,
+      "platformName": "Spotify",
+      "oracleProof": "0x8efba3d7ab1043ca2575c51ac71d1086fa8ed59956c84008cdf8d4f64aaa4d3e",
+      "timestamp": "2026-10-25T17:04:45.009Z",
+      "txHash": "0xa9266e8f4d6c6c3dfa3e70f93e2d7f77c43b53b2eae37359159d8657a6d57a69",
+      "blockNumber": 38,
+      "createdAt": "2026-10-25T17:04:45.012Z",
+      "updatedAt": "2026-10-25T17:04:45.012Z"
+    },
+    {
+      "usageId": "USG_ATZ48YU",
+      "songId": "SONG_OIUNIH",
+      "streamCount": 51000,
+      "platformName": "Spotify",
+      "oracleProof": "0x32c32baba34874ae5e68d306a4c635acbb2b9355b445f4f922620634408f1514",
+      "timestamp": "2026-10-25T17:04:57.932Z",
+      "txHash": "0xe5f5191867f808f946068e86c6c69fcee9a16a6c02211aa3f548d2b948b9cc16",
+      "blockNumber": 19,
+      "createdAt": "2026-10-25T17:04:57.935Z",
+      "updatedAt": "2026-10-25T17:04:57.935Z"
+    },
+    {
+      "usageId": "USG_SHY9UEB",
+      "songId": "SONG_EA0HX2",
+      "streamCount": 51000,
+      "platformName": "Spotify",
+      "oracleProof": "0xed9780dba40637ac563f42eb6146e5bc80e853111ce857224aae66f7a342b307",
+      "timestamp": "2026-10-25T18:21:38.098Z",
+      "txHash": "0xc53d664951528adf81ad5fa007dd3e1b7497109cd0e5556b71de67778a7ec824",
+      "blockNumber": 3,
+      "createdAt": "2026-10-25T18:21:38.103Z",
+      "updatedAt": "2026-10-25T18:21:38.103Z"
+    }
+  ],
+  "royaltyDistributions": [
+    {
+      "distributionId": "DIST_GENESIS_01",
+      "songId": "SONG001",
+      "songTitle": "Midnight Melody",
+      "amountEth": 0.625,
+      "distributorWallet": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "timestamp": "2026-10-25T18:15:00.000Z",
+      "txHash": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2",
+      "blockNumber": 4,
+      "createdAt": "2026-10-25T18:15:00.000Z",
+      "updatedAt": "2026-10-25T18:15:00.000Z"
+    },
+    {
+      "distributionId": "DIST_QJVYST",
+      "songId": "SONG001",
+      "songTitle": "Midnight Melody",
+      "amountEth": 1.01,
+      "distributorWallet": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "timestamp": "2026-10-25T14:34:59.867Z",
+      "txHash": "0x455d0ca7039bc56e7e4594dd13e1d8c47c9f517b016f3d3a23d24f2d0ce8d25a",
+      "blockNumber": 43,
+      "createdAt": "2026-10-25T14:34:59.868Z",
+      "updatedAt": "2026-10-25T14:34:59.868Z"
+    },
+    {
+      "distributionId": "DIST_8XM949",
+      "songId": "SONG001",
+      "songTitle": "Midnight Melody",
+      "amountEth": 1.01,
+      "distributorWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "timestamp": "2026-10-25T16:07:57.190Z",
+      "txHash": "0x595d3a8a4b51dd2a28f630b8869e6530b9754c1518adca9a0d6562ce3a5c95b9",
+      "blockNumber": 18,
+      "createdAt": "2026-10-25T16:07:57.191Z",
+      "updatedAt": "2026-10-25T16:07:57.191Z"
+    },
+    {
+      "distributionId": "DIST_DR28L8",
+      "songId": "SONG_OIUNIH",
+      "songTitle": "Neon Horizons",
+      "amountEth": 1.01,
+      "distributorWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "timestamp": "2026-10-25T17:05:40.456Z",
+      "txHash": "0x9a8ee1e39e4f40b7f25b0817b2b6eada8c82b31d8af5363bc96b5461d9572d28",
+      "blockNumber": 17,
+      "createdAt": "2026-10-25T17:05:40.459Z",
+      "updatedAt": "2026-10-25T17:05:40.459Z"
+    },
+    {
+      "distributionId": "DIST_MRYD0M",
+      "songId": "SONG001",
+      "songTitle": "Midnight Melody",
+      "amountEth": 1.01,
+      "distributorWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "timestamp": "2026-10-25T17:06:42.176Z",
+      "txHash": "0x380ebf207988c39ef9e1cd5bec183e2d5dcab5e9d6fc93e7945937562ba24e82",
+      "blockNumber": 43,
+      "createdAt": "2026-10-25T17:06:42.179Z",
+      "updatedAt": "2026-10-25T17:06:42.179Z"
+    },
+    {
+      "distributionId": "DIST_HGYIN4",
+      "songId": "SONG001",
+      "songTitle": "Midnight Melody",
+      "amountEth": 1.01,
+      "distributorWallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "timestamp": "2026-10-25T17:06:44.329Z",
+      "txHash": "0xeda4988c9386bd6c512e163572a8954c0372760fe76575cf54c287638ef60ace",
+      "blockNumber": 49,
+      "createdAt": "2026-10-25T17:06:44.332Z",
+      "updatedAt": "2026-10-25T17:06:44.332Z"
+    },
+    {
+      "distributionId": "DIST_C1ML8S",
+      "songId": "SONG_M413X1",
+      "songTitle": "hello",
+      "amountEth": 1.01,
+      "distributorWallet": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "timestamp": "2026-10-25T17:19:39.880Z",
+      "txHash": "0x3781b84f3d3cf352bd70842b8d73a01eb8e7078a1e1d32cbae647e35fae95409",
+      "blockNumber": 13,
+      "createdAt": "2026-10-25T17:19:39.882Z",
+      "updatedAt": "2026-10-25T17:19:39.882Z"
+    },
+    {
+      "distributionId": "DIST_RG8I4Q",
+      "songId": "SONG_EA0HX2",
+      "songTitle": "hi",
+      "amountEth": 1.01,
+      "distributorWallet": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "timestamp": "2026-10-25T18:23:06.517Z",
+      "txHash": "0x6f8f1a636d4ab0043ed44a6876ddc87a0e568f018f28984423a2142fdf5ce74b",
+      "blockNumber": 22,
+      "createdAt": "2026-10-25T18:23:06.522Z",
+      "updatedAt": "2026-10-25T18:23:06.522Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_genesis_01",
+      "action": "SONG_REGISTERED",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Registered copyright for 'Midnight Melody' (SONG001) with 3 rights holders (Elena Vance 50%, Marcus Cole 30%, Sarah Jenkins 20%)",
+      "txHash": "0x7a3f89b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9",
+      "timestamp": "2026-10-25T18:00:00.000Z"
+    },
+    {
+      "id": "log_genesis_02",
+      "action": "COPYRIGHT_VERIFIED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Certified copyright for song SONG001 ('Midnight Melody') by Global Copyright Authority",
+      "txHash": "0x3f89b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0",
+      "timestamp": "2026-10-25T18:05:00.000Z"
+    },
+    {
+      "id": "log_genesis_03",
+      "action": "ORACLE_USAGE_VERIFIED",
+      "actor": "Oracle [Spotify]",
+      "details": "Verified 125,000 streams for song SONG001 with cryptographic signature",
+      "txHash": "0x2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1",
+      "timestamp": "2026-10-25T18:10:00.000Z"
+    },
+    {
+      "id": "log_genesis_04",
+      "action": "LICENSE_CREATED",
+      "actor": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "details": "Acquired Commercial Streaming license for song SONG001 for 365 days. Fee: 0.5 ETH",
+      "txHash": "0x4b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2",
+      "timestamp": "2026-10-25T18:12:00.000Z"
+    },
+    {
+      "id": "log_genesis_05",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "details": "Distributed 0.625 ETH in royalties for song SONG001 ('Midnight Melody') across rights holders",
+      "txHash": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2",
+      "timestamp": "2026-10-25T18:15:00.000Z"
+    },
+    {
+      "id": "log_1792936580066_605",
+      "action": "SONG_REGISTERED",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Registered copyright for 'Neon Horizons' (SONG_OIUNIH) with 3 rights holders",
+      "txHash": "0xe535ff4134bbc5517fe6c02200094dd33c96aefea07c4378302f857147e8d5e2",
+      "timestamp": "2026-10-25T13:56:20.066Z",
+      "createdAt": "2026-10-25T13:56:20.070Z",
+      "updatedAt": "2026-10-25T13:56:20.070Z"
+    },
+    {
+      "id": "log_1792938806143_947",
+      "action": "LICENSE_CREATED",
+      "actor": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "details": "Acquired Commercial Streaming license for song SONG_OIUNIH ('Neon Horizons') for 365 days. Fee: 0.5 ETH",
+      "txHash": "0x74674c7ca46db070c2d359867f506ff7b5d088c35e9ecbcaecee4fa90d344478",
+      "timestamp": "2026-10-25T14:33:26.143Z",
+      "createdAt": "2026-10-25T14:33:26.147Z",
+      "updatedAt": "2026-10-25T14:33:26.147Z"
+    },
+    {
+      "id": "log_1792938861551_371",
+      "action": "ORACLE_USAGE_VERIFIED",
+      "actor": "Oracle [Spotify]",
+      "details": "Verified 50100 streams for song SONG001",
+      "txHash": "0x0999f65c874d3648c0378e92877eb909efe8d5d851ee8d7d7af7d29825775482",
+      "timestamp": "2026-10-25T14:34:21.551Z",
+      "createdAt": "2026-10-25T14:34:21.555Z",
+      "updatedAt": "2026-10-25T14:34:21.555Z"
+    },
+    {
+      "id": "log_1792938876701_761",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0xe115b0d521f50cd4b00c7f93239e04cd4461c27235e8dc171f63bbc40dfa3735",
+      "timestamp": "2026-10-25T14:34:36.701Z",
+      "createdAt": "2026-10-25T14:34:36.704Z",
+      "updatedAt": "2026-10-25T14:34:36.704Z"
+    },
+    {
+      "id": "log_1792938884629_766",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0x14b4dc8220bfbf500ab0d4b591cb5a1cc6372c9a4b95a0d6cf257ebdc07e6617",
+      "timestamp": "2026-10-25T14:34:44.629Z",
+      "createdAt": "2026-10-25T14:34:44.632Z",
+      "updatedAt": "2026-10-25T14:34:44.632Z"
+    },
+    {
+      "id": "log_1792938899876_301",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "details": "Distributed 1.01 ETH in royalties for song SONG001 ('Midnight Melody') across rights holders",
+      "txHash": "0x455d0ca7039bc56e7e4594dd13e1d8c47c9f517b016f3d3a23d24f2d0ce8d25a",
+      "timestamp": "2026-10-25T14:34:59.877Z",
+      "createdAt": "2026-10-25T14:34:59.880Z",
+      "updatedAt": "2026-10-25T14:34:59.880Z"
+    },
+    {
+      "id": "log_1792940301340_817",
+      "action": "COPYRIGHT_VERIFIED",
+      "actor": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4df",
+      "details": "Certified copyright for song SONG_OIUNIH ('Neon Horizons')",
+      "txHash": "0x02b9cafa602ab30cf73efbe185c9d1c5e0d64db43fb39676b88a850639c96fa7",
+      "timestamp": "2026-10-25T14:58:21.340Z",
+      "createdAt": "2026-10-25T14:58:21.345Z",
+      "updatedAt": "2026-10-25T14:58:21.345Z"
+    },
+    {
+      "id": "log_1792944477207_921",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Distributed 1.01 ETH in royalties for song SONG001 ('Midnight Melody') across rights holders",
+      "txHash": "0x595d3a8a4b51dd2a28f630b8869e6530b9754c1518adca9a0d6562ce3a5c95b9",
+      "timestamp": "2026-10-25T16:07:57.209Z",
+      "createdAt": "2026-10-25T16:07:57.212Z",
+      "updatedAt": "2026-10-25T16:07:57.212Z"
+    },
+    {
+      "id": "log_1792946405323_397",
+      "action": "SONG_REGISTERED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Registered copyright for 'hello' (SONG_M413X1) with 3 rights holders",
+      "txHash": "0x313679bea3ad07207c9d5e10b5dd0f290c58862d8c4aebff6793d937b48d5b7c",
+      "timestamp": "2026-10-25T16:40:05.323Z",
+      "createdAt": "2026-10-25T16:40:05.330Z",
+      "updatedAt": "2026-10-25T16:40:05.330Z"
+    },
+    {
+      "id": "log_1792947077549_217",
+      "action": "SONG_REGISTERED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Registered copyright for 'hello' (SONG_Y15JSM) with 3 rights holders",
+      "txHash": "0x7f4cee1efe3246e12886ec2b16d76d909b3511aa3f98d50e88bce4839fed7bd9",
+      "timestamp": "2026-10-25T16:51:17.549Z",
+      "createdAt": "2026-10-25T16:51:17.558Z",
+      "updatedAt": "2026-10-25T16:51:17.558Z"
+    },
+    {
+      "id": "log_1792947143309_562",
+      "action": "COPYRIGHT_VERIFIED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Certified copyright for song SONG_M413X1 ('hello')",
+      "txHash": "0x70d27e71dac9bf23bdb7b4399f9c50507637bf05ccca04af0e64d3a95a94e1d1",
+      "timestamp": "2026-10-25T16:52:23.310Z",
+      "createdAt": "2026-10-25T16:52:23.315Z",
+      "updatedAt": "2026-10-25T16:52:23.315Z"
+    },
+    {
+      "id": "log_1792947188820_196",
+      "action": "LICENSE_CREATED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Acquired Commercial Streaming license for song SONG_M413X1 ('hello') for 365 days. Fee: 0.5 ETH",
+      "txHash": "0xed48a2a2dd3d5bb21637c0617e8a00eea8fe05926009f085b533089bef09be09",
+      "timestamp": "2026-10-25T16:53:08.820Z",
+      "createdAt": "2026-10-25T16:53:08.829Z",
+      "updatedAt": "2026-10-25T16:53:08.829Z"
+    },
+    {
+      "id": "log_1792947287808_698",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0x6e089f476c79f047c3c904ec65760b559f157a6119008b89c8ad988030ff0eeb",
+      "timestamp": "2026-10-25T16:54:47.808Z",
+      "createdAt": "2026-10-25T16:54:47.812Z",
+      "updatedAt": "2026-10-25T16:54:47.812Z"
+    },
+    {
+      "id": "log_1792947885016_500",
+      "action": "ORACLE_USAGE_VERIFIED",
+      "actor": "Oracle [Spotify]",
+      "details": "Verified 51000 streams for song SONG001",
+      "txHash": "0xa9266e8f4d6c6c3dfa3e70f93e2d7f77c43b53b2eae37359159d8657a6d57a69",
+      "timestamp": "2026-10-25T17:04:45.016Z",
+      "createdAt": "2026-10-25T17:04:45.021Z",
+      "updatedAt": "2026-10-25T17:04:45.021Z"
+    },
+    {
+      "id": "log_1792947897938_951",
+      "action": "ORACLE_USAGE_VERIFIED",
+      "actor": "Oracle [Spotify]",
+      "details": "Verified 51000 streams for song SONG_OIUNIH",
+      "txHash": "0xe5f5191867f808f946068e86c6c69fcee9a16a6c02211aa3f548d2b948b9cc16",
+      "timestamp": "2026-10-25T17:04:57.938Z",
+      "createdAt": "2026-10-25T17:04:57.941Z",
+      "updatedAt": "2026-10-25T17:04:57.941Z"
+    },
+    {
+      "id": "log_1792947940469_399",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Distributed 1.01 ETH in royalties for song SONG_OIUNIH ('Neon Horizons') across rights holders",
+      "txHash": "0x9a8ee1e39e4f40b7f25b0817b2b6eada8c82b31d8af5363bc96b5461d9572d28",
+      "timestamp": "2026-10-25T17:05:40.469Z",
+      "createdAt": "2026-10-25T17:05:40.473Z",
+      "updatedAt": "2026-10-25T17:05:40.473Z"
+    },
+    {
+      "id": "log_1792947950268_854",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0xdf84eccdde066f14c9c04820a44cfd6ac2517020732d2383a2152d85d035167e",
+      "timestamp": "2026-10-25T17:05:50.268Z",
+      "createdAt": "2026-10-25T17:05:50.270Z",
+      "updatedAt": "2026-10-25T17:05:50.270Z"
+    },
+    {
+      "id": "log_1792947988256_858",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0x1bdae38c8508baf675d6c50ffe47904739402fa63e524d6cf0078c7d3a14ec5c",
+      "timestamp": "2026-10-25T17:06:28.256Z",
+      "createdAt": "2026-10-25T17:06:28.259Z",
+      "updatedAt": "2026-10-25T17:06:28.259Z"
+    },
+    {
+      "id": "log_1792948002188_508",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Distributed 1.01 ETH in royalties for song SONG001 ('Midnight Melody') across rights holders",
+      "txHash": "0x380ebf207988c39ef9e1cd5bec183e2d5dcab5e9d6fc93e7945937562ba24e82",
+      "timestamp": "2026-10-25T17:06:42.188Z",
+      "createdAt": "2026-10-25T17:06:42.190Z",
+      "updatedAt": "2026-10-25T17:06:42.190Z"
+    },
+    {
+      "id": "log_1792948004342_356",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Distributed 1.01 ETH in royalties for song SONG001 ('Midnight Melody') across rights holders",
+      "txHash": "0xeda4988c9386bd6c512e163572a8954c0372760fe76575cf54c287638ef60ace",
+      "timestamp": "2026-10-25T17:06:44.342Z",
+      "createdAt": "2026-10-25T17:06:44.345Z",
+      "updatedAt": "2026-10-25T17:06:44.345Z"
+    },
+    {
+      "id": "log_1792948007174_87",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0x3c9c6b42c6b551785f88cbb666fc6f82377380e7ff65a007df8d7f50a2db993a",
+      "timestamp": "2026-10-25T17:06:47.174Z",
+      "createdAt": "2026-10-25T17:06:47.178Z",
+      "updatedAt": "2026-10-25T17:06:47.178Z"
+    },
+    {
+      "id": "log_1792948735304_73",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0x5f5c99059a2f41c921a717b1bd03d1eadebfdb8514b607e77c617d05de692dff",
+      "timestamp": "2026-10-25T17:18:55.304Z",
+      "createdAt": "2026-10-25T17:18:55.307Z",
+      "updatedAt": "2026-10-25T17:18:55.307Z"
+    },
+    {
+      "id": "log_1792948779893_116",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Distributed 1.01 ETH in royalties for song SONG_M413X1 ('hello') across rights holders",
+      "txHash": "0x3781b84f3d3cf352bd70842b8d73a01eb8e7078a1e1d32cbae647e35fae95409",
+      "timestamp": "2026-10-25T17:19:39.893Z",
+      "createdAt": "2026-10-25T17:19:39.898Z",
+      "updatedAt": "2026-10-25T17:19:39.898Z"
+    },
+    {
+      "id": "log_1792952332021_350",
+      "action": "SONG_REGISTERED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Registered copyright for 'hi' (SONG_EA0HX2) with 3 rights holders",
+      "txHash": "0x691a275aa7d5a3b50127c2e65d60474f09f0bdc53c147cae80c69da9c980d7cb",
+      "timestamp": "2026-10-25T18:18:52.021Z",
+      "createdAt": "2026-10-25T18:18:52.026Z",
+      "updatedAt": "2026-10-25T18:18:52.026Z"
+    },
+    {
+      "id": "log_1792952374346_295",
+      "action": "COPYRIGHT_VERIFIED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Certified copyright for song SONG_EA0HX2 ('hi')",
+      "txHash": "0xd0ab3e0043534139777262abe8f42c08759f90d0acbb89d4ecafffe89066d5ad",
+      "timestamp": "2026-10-25T18:19:34.346Z",
+      "createdAt": "2026-10-25T18:19:34.352Z",
+      "updatedAt": "2026-10-25T18:19:34.352Z"
+    },
+    {
+      "id": "log_1792952422992_883",
+      "action": "LICENSE_CREATED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Acquired Commercial Streaming license for song SONG_EA0HX2 ('hi') for 365 days. Fee: 0.5 ETH",
+      "txHash": "0xb1b313d73428c9bd84844fda4bdc927866876a3e4a15de0651786d4699f1a535",
+      "timestamp": "2026-10-25T18:20:22.992Z",
+      "createdAt": "2026-10-25T18:20:22.998Z",
+      "updatedAt": "2026-10-25T18:20:22.999Z"
+    },
+    {
+      "id": "log_1792952498108_802",
+      "action": "ORACLE_USAGE_VERIFIED",
+      "actor": "Oracle [Spotify]",
+      "details": "Verified 51000 streams for song SONG_EA0HX2",
+      "txHash": "0xc53d664951528adf81ad5fa007dd3e1b7497109cd0e5556b71de67778a7ec824",
+      "timestamp": "2026-10-25T18:21:38.108Z",
+      "createdAt": "2026-10-25T18:21:38.113Z",
+      "updatedAt": "2026-10-25T18:21:38.113Z"
+    },
+    {
+      "id": "log_1792952586533_304",
+      "action": "ROYALTY_DISTRIBUTED",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Distributed 1.01 ETH in royalties for song SONG_EA0HX2 ('hi') across rights holders",
+      "txHash": "0x6f8f1a636d4ab0043ed44a6876ddc87a0e568f018f28984423a2142fdf5ce74b",
+      "timestamp": "2026-10-25T18:23:06.533Z",
+      "createdAt": "2026-10-25T18:23:06.539Z",
+      "updatedAt": "2026-10-25T18:23:06.539Z"
+    },
+    {
+      "id": "log_1792952597810_118",
+      "action": "ROYALTY_WITHDRAWN",
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "details": "Withdrew 0.5 ETH accumulated royalty share",
+      "txHash": "0x4ac68deda403a7739407c1133d456483cfdc798a25c67fcd27164a43162ec84e",
+      "timestamp": "2026-10-25T18:23:17.810Z",
+      "createdAt": "2026-10-25T18:23:17.814Z",
+      "updatedAt": "2026-10-25T18:23:17.814Z"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+=======================================================
+ Music Copyright & Royalty Backend API running on port 5050
+ http://localhost:5050
+ Health check: http://localhost:5050/api/stats
+=======================================================
+JsonRpcProvider failed to detect network and cannot start up; retry in 1s (perhaps the URL is wrong or the node is not started)
+JsonRpcProvider failed to detect network and cannot start up; retry in 1s (perhaps the URL is wrong or the node is not started)
